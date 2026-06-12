@@ -77,7 +77,8 @@
         /* --- Hero Section --- */
         .hero { 
             padding: var(--space-2xl) 0; 
-            display: grid;             
+            display: grid;
+            grid-template-columns: 1fr 1fr;             
             gap: var(--space-lg); 
             align-items: center; 
         }
@@ -599,12 +600,23 @@
         /* (Reservado para clases de utilidad si son necesarias) */
 
         /* 7. RESPONSIVE */
-       
-    @media (min-width: 768px) {
-        .hero {
-            grid-template-columns: 1fr 1fr; 
+      @media (min-width: 768px) and (max-width: 1024px) {
+
+    .hero {
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 50px;
     }
-}
+    .hero__content {
+        padding-left: 35px;
+    }
+    .hero__title {
+        font-size: clamp(2.3rem, 4vw, 3rem);
+    }
+    .hero__book-img {
+        max-width: 280px;
+    }
+} 
+  
         @media (max-width: 767px) {
         .hero { 
         grid-template-columns: 1fr !important; 
