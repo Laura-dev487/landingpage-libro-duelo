@@ -31,7 +31,7 @@
             --color-bg: #FDF9F6;
             --color-bg-alt: #F4EAE6;
             --color-primary: #765352;
-            --color-btn-action: #A67C7A;
+            --color-btn-action: #966764;
             --color-accent: #C89997;
             --color-text: #2D2423;
             --color-text-muted: #5D5251;
@@ -116,6 +116,7 @@
              padding: 12px 32px;
              border-radius: var(--radius-sm);
              font-weight: 600;
+             font-size: 1rem;
              transition: background-color var(--transition), color var(--transition), border-color var(--transition), transform var(--transition); text-align: center;
              cursor: pointer;
              border: none;
@@ -129,7 +130,7 @@
         .btn--primary:active { transform: scale(0.98);
          }
         .btn--secondary { background: transparent;
-             border: 1px solid var(--color-btn-action);
+             border: 2px solid var(--color-btn-action);
               color: var(--color-btn-action); 
         }
         .btn--secondary:hover, .btn--secondary:focus-visible { border-color: var(--color-primary);
@@ -414,12 +415,13 @@
 .footer__credits a {
     color: var(--color-primary);
     font-weight: 600;
+    font-size: 1.1rem;
     transition: color var(--transition);
+     text-decoration: underline;
 }
 
 .footer__credits a:hover {
-    color: var(--color-btn-action);
-    text-decoration: underline;
+    color: var(--color-btn-action);   
 }
 
 .footer__heart {
@@ -614,6 +616,8 @@
     .hero__content { 
         padding-right: 0 !important; 
         align-items: center; 
+         padding-top: var(--space-lg);
+        padding-bottom: var(--space-lg);
     }
 
     .hero__title {

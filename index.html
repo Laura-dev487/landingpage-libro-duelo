@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guía de acompañamiento para transitar el duelo gestacional con respeto y ternura.">
     <title>La Huella de un Amor Breve | Guía de acompañamiento</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="styles.css">
 
    
 </head>
@@ -23,9 +24,22 @@
                 <button id="btn-abrir-indice" class="btn btn--secondary">Índice</button>
 </div>
             </div>
-           <div class="hero__image">
-                <img src="img/libro.webp" alt="Portada del libro La Huella de un Amor Breve, con un conejito de peluche, ropa de bebé y una vela." class="hero__book-img">
-            </div>
+        <div class="hero__image">
+        <img 
+            src="./img/libro.webp" 
+            srcset="./img/libro200.webp 200w, 
+                    ./img/libro480.webp 480w, 
+                    ./img/libro809.webp 809w, 
+                    ./img/libro.webp 1024w" 
+            sizes="(max-width: 600px) 200px, 
+                    (max-width: 1024px) 400px, 
+                    1024px" 
+            alt="La huella de un amor breve" 
+            class="hero__book-img"
+            width="1024" 
+            height="1024" 
+            fetchpriority="high">
+        </div>
         </section>
 
         <section class="section-quote">
