@@ -446,8 +446,8 @@
     position: fixed;
     bottom: 80px;
     right: 24px;
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
     background-color: #25D366;
     color: white;
     border-radius: 50%;
@@ -462,9 +462,7 @@
     transform: scale(1.08) translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
-.whatsapp-btn svg {
-    width: 28px;
-    height: 28px;
+.whatsapp-btn svg {   
     fill: currentColor;
 }
 
@@ -539,11 +537,7 @@
     box-shadow: 0 6px 15px rgba(37, 211, 102, 0.3); /* Sombra verde */
     color: white;
 }
-.btn--whatsapp-modal svg {
-    width: 22px;
-    height: 22px;
-    fill: currentColor;
-}
+
 .modal__action {
     display: flex;
     justify-content: center;
