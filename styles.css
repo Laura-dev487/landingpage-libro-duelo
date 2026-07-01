@@ -654,7 +654,11 @@
     .features.container > * {
         margin-left: auto !important;
         margin-right: auto !important;
-    }    
+    }   
+    
+    .card-cta__price-ars{
+        font-size: 2rem;
+    }
             
     .footer__inner {        
         display: flex !important;
