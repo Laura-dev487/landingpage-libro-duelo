@@ -656,6 +656,14 @@
         margin-right: auto !important;
     }   
     
+    .purpose, 
+    .card-cta {
+        width: 90%;
+        max-width: 90%; 
+        margin-left: auto !important;
+        margin-right: auto !important;
+}
+
     .card-cta__price-ars{
         font-size: 2rem;
     }
